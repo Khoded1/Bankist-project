@@ -1,0 +1,44 @@
+@media screen and (max-width: 450px) {
+  body {
+    padding: 1rem;
+  }
+  nav {
+    padding: 0 1rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .welcome {
+    font-size: 1.2rem;
+  }
+  .logo {
+    height: 4.25rem;
+  }
+  .login__input {
+    width: 8rem;
+    font-size: 1.2rem;
+  }
+  .app {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    max-width: 50rem;
+  }
+  .balance__label {
+    font-size: 1.5rem;
+  }
+  .balance__date {
+    font-size: 1.2rem;
+  }
+  .balance__value {
+    font-size: 2.5rem;
+  }
+  .movement {
+    overflow: hidden;
+  }
+  .summary {
+    flex-direction: column;
+  }
+  .operation {
+    padding: 2rem 2rem;
+  }
+}
